@@ -484,7 +484,7 @@ downloadBtn.addEventListener("click", () => {
   });
 
   /* 2️⃣ Trigger download immediately (MOBILE SAFE) */
-  const fileUrl = "../Bestomech-IDC-Final";
+  const fileUrl = "../global assets/besto mech final PDF.pdf";
 
   if (/Android|iPhone|iPad|iPod/i.test(navigator.userAgent)) {
     // Mobile → open file directly
