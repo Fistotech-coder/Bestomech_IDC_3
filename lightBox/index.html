@@ -165,19 +165,48 @@
 
   <!-- ==============================diverter start======================= -->
 
-  <div class="lightbox-target" id="diverter-wheel">
+  <!-- <div class="lightbox-target" id="diverter-wheel">
     <div class="position-relative bg-[#e2e2e2] background_color5">
 
-      <model-viewer src="./assets/models/diverted wheels.glb" ar-modes="webxr scene-viewer quick-look" camera-controls
-        camera-orbit="-18.39deg 89.23deg 1.624m" field-of-view="30deg" min-camera-orbit="auto auto 1.516m"
-        min-field-of-view="26.26deg" tone-mapping="agx" shadow-softness="0"
-        environment-image="./assets/images/dcdaf727-7542-4007-93c0-ae444f89f90d.hdr" poster="poster.webp"
-        shadow-intensity="1" disable-pan disable-tap style=" scale: 1; "></model-viewer>
+      <model-viewer src="./assets/models/Diverted Wheels.glb" ar-modes="webxr scene-viewer quick-look" camera-controls
+         min-camera-orbit="auto auto 0.6239m" min-field-of-view="26.26deg" camera-orbit="57.29deg 82.86deg 0.6684m" field-of-view="30deg" tone-mapping="Neutral" shadow-softness="1" 
+        environment-image="./assets/images/abandoned_workshop_2k 1.hdr" poster="poster.webp"
+        shadow-intensity="1" exposure="0.85" disable-pan disable-tap style=" scale: 0.9; "></model-viewer>
       <div class="progress-bar hide" slot="progress-bar">
         <div class="update-bar"></div>
       </div>
 
-      </model-viewer>
+      
+    </div>
+
+    <a class="lightbox-close" href="#" onclick="javascript:window.close()"></a>
+    <div class="deg">
+      <img src="./assets/images/360-degrees.webp" alt="">
+    </div>
+
+
+
+  </div> -->
+
+   <div class="lightbox-target" id="diverter-wheel">
+    <div class="position-relative bg-[#e2e2e2] background_color5">
+
+      <model-viewer src="./assets/models/Diverted Wheels.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" shadow-intensity="1" environment-image="./assets/images/abandoned_workshop_2k 1.hdr" exposure="0.85" camera-orbit="61.22deg 90.73deg 0.6684m" field-of-view="30deg" min-camera-orbit="auto auto 0.6239m" min-field-of-view="26.26deg" disable-pan disable-tap>
+      <div class="progress-bar hide" slot="progress-bar">
+          <div class="update-bar"></div>
+      </div>
+      <button slot="ar-button" id="ar-button">
+          View in your space
+      </button>
+      <div id="ar-prompt">
+          <img src="ar_hand_prompt.png">
+      </div>
+    </model-viewer>
+      <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+      </div>
+
+      
     </div>
 
     <a class="lightbox-close" href="#" onclick="javascript:window.close()"></a>
@@ -188,7 +217,6 @@
 
 
   </div>
-
   <!-- ==============================diverter end======================= -->
 
   <!-- ==============================tyre-coupling start======================= -->
