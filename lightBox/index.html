@@ -91,7 +91,8 @@
     <div class="position-relative bg-[#e2e2e2] background_color3">
 
       <model-viewer src="./assets/models/poly v pulley.glb" ar-modes="webxr scene-viewer quick-look" camera-controls
-        camera-orbit="71.89deg 87.36deg 5.019m" field-of-view="30deg" min-camera-orbit="auto auto 4.685m" min-field-of-view="26.26deg" tone-mapping="agx" shadow-softness="0"
+        camera-orbit="71.89deg 87.36deg 5.019m" field-of-view="30deg" min-camera-orbit="auto auto 4.685m"
+        min-field-of-view="26.26deg" tone-mapping="agx" shadow-softness="0"
         environment-image="./assets/images/studio_small_08_4k.hdr" poster="poster.webp" shadow-intensity="1" disable-pan
         shadow-intensity="2" exposure="0.7" disable-tap style=" scale: 1 "></model-viewer>
       <div class="progress-bar hide" slot="progress-bar">
@@ -116,9 +117,9 @@
   <div class="lightbox-target" id="sprockets">
     <div class="position-relative bg-[#e2e2e2] background_color4">
 
-      <model-viewer src="./assets/models/Sprockets.glb" ar-modes="webxr scene-viewer quick-look" camera-controls
-        camera-orbit="-18.22deg 83.3deg 0.6523m" field-of-view="30deg" tone-mapping="agx" poster="poster.webp"
-        shadow-intensity="2" exposure="2.5" disable-pan disable-tap shadow-softness="0"
+      <model-viewer src="./assets/models/Diverted-Wheels-(2).glb" ar-modes="webxr scene-viewer quick-look"
+        camera-controls camera-orbit="-18.22deg 83.3deg 0.6523m" field-of-view="30deg" tone-mapping="agx"
+        poster="poster.webp" shadow-intensity="2" exposure="2.5" disable-pan disable-tap shadow-softness="0"
         environment-image="./assets/images/dcdaf727-7542-4007-93c0-ae444f89f90d.hdr"
         min-camera-orbit="auto auto 0.6088m" min-field-of-view="26.26deg" style=" scale: 1; "></model-viewer>
       <div class="progress-bar hide" slot="progress-bar">
@@ -164,49 +165,17 @@
   <!-- ==============================sprocket end======================= -->
 
   <!-- ==============================diverter start======================= -->
-
-  <!-- <div class="lightbox-target" id="diverter-wheel">
+  <div class="lightbox-target" id="diverter-wheel">
     <div class="position-relative bg-[#e2e2e2] background_color5">
 
-      <model-viewer src="./assets/models/Diverted Wheels.glb" ar-modes="webxr scene-viewer quick-look" camera-controls
-         min-camera-orbit="auto auto 0.6239m" min-field-of-view="26.26deg" camera-orbit="57.29deg 82.86deg 0.6684m" field-of-view="30deg" tone-mapping="Neutral" shadow-softness="1" 
-        environment-image="./assets/images/abandoned_workshop_2k 1.hdr" poster="poster.webp"
-        shadow-intensity="1" exposure="0.85" disable-pan disable-tap style=" scale: 0.9; "></model-viewer>
+      <model-viewer src="./assets/models/Diverted_wheels.glb" ar ar-modes="webxr scene-viewer quick-look"
+        camera-controls tone-mapping="aces" poster="poster.webp" shadow-intensity="0.64"
+        environment-image="./assets/images/abandoned_workshop_2k 1.hdr" exposure="0.88" min-camera-orbit="auto auto 0.6239m" min-field-of-view="26.26deg" camera-orbit="38.75deg 87.36deg 0.6684m" field-of-view="30deg"></model-viewer>
       <div class="progress-bar hide" slot="progress-bar">
         <div class="update-bar"></div>
       </div>
 
-      
-    </div>
 
-    <a class="lightbox-close" href="#" onclick="javascript:window.close()"></a>
-    <div class="deg">
-      <img src="./assets/images/360-degrees.webp" alt="">
-    </div>
-
-
-
-  </div> -->
-
-   <div class="lightbox-target" id="diverter-wheel">
-    <div class="position-relative bg-[#e2e2e2] background_color5">
-
-      <model-viewer src="./assets/models/Diverted Wheels.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" shadow-intensity="1" environment-image="./assets/images/studio_small_08_4k.hdr" exposure="0.85"  camera-orbit="7.301deg 88.48deg 1.621m" field-of-view="30deg" min-camera-orbit="auto auto 1.513m" min-field-of-view="26.26deg" disable-pan disable-tap>
-      <div class="progress-bar hide" slot="progress-bar">
-          <div class="update-bar"></div>
-      </div>
-      <button slot="ar-button" id="ar-button">
-          View in your space
-      </button>
-      <div id="ar-prompt">
-          <img src="ar_hand_prompt.png">
-      </div>
-    </model-viewer>
-      <div class="progress-bar hide" slot="progress-bar">
-        <div class="update-bar"></div>
-      </div>
-
-      
     </div>
 
     <a class="lightbox-close" href="#" onclick="javascript:window.close()"></a>
@@ -217,6 +186,8 @@
 
 
   </div>
+
+
   <!-- ==============================diverter end======================= -->
 
   <!-- ==============================tyre-coupling start======================= -->
@@ -252,12 +223,11 @@
   <div class="lightbox-target" id="gear-coupling">
     <div class="position-relative bg-[#e2e2e2] background_color7">
 
-      <model-viewer src="./assets/models/gear-coupling.glb" ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral"
-        camera-orbit="260.6deg 86.15deg 1.013m" field-of-view="30deg" min-camera-orbit="auto auto 0.9454m"
-        min-field-of-view="26.26deg" tone-mapping="agx" shadow-intensity="1" exposure="1.7" shadow-softness="0"
-        environment-image="./assets/images/studio_small_08_4k.hdr"
-         poster="poster.webp" shadow-intensity="1"
-        disable-pan disable-tap style=" scale: 1; "></model-viewer>
+      <model-viewer src="./assets/models/gear-coupling.glb" ar-modes="webxr scene-viewer quick-look" camera-controls
+        tone-mapping="neutral" camera-orbit="260.6deg 86.15deg 1.013m" field-of-view="30deg"
+        min-camera-orbit="auto auto 0.9454m" min-field-of-view="26.26deg" tone-mapping="agx" shadow-intensity="1"
+        exposure="1.7" shadow-softness="0" environment-image="./assets/images/studio_small_08_4k.hdr"
+        poster="poster.webp" shadow-intensity="1" disable-pan disable-tap style=" scale: 1; "></model-viewer>
       <div class="progress-bar hide" slot="progress-bar">
         <div class="update-bar"></div>
       </div>
@@ -281,11 +251,11 @@
   <div class="lightbox-target" id="pin-bush-coupling">
     <div class="position-relative bg-[#e2e2e2] background_color8">
 
-      <model-viewer src="./assets/models/pin bush coupling 3.glb" ar-modes="webxr scene-viewer quick-look" camera-controls
-        camera-orbit="20.15deg 85.67deg 0.7449m" field-of-view="30deg" min-camera-orbit="auto auto 0.7449m"
-        min-field-of-view="30deg" tone-mapping="agx" shadow-intensity="1" exposure="1.5" shadow-softness="1"
-        poster="poster.webp"
-         disable-pan disable-tap style=" scale: 1; "></model-viewer>
+      <model-viewer src="./assets/models/pin bush coupling 3.glb" ar-modes="webxr scene-viewer quick-look"
+        camera-controls camera-orbit="20.15deg 85.67deg 0.7449m" field-of-view="30deg"
+        min-camera-orbit="auto auto 0.7449m" min-field-of-view="30deg" tone-mapping="agx" shadow-intensity="1"
+        exposure="1.5" shadow-softness="1" poster="poster.webp" disable-pan disable-tap
+        style=" scale: 1; "></model-viewer>
       <div class="progress-bar hide" slot="progress-bar">
         <div class="update-bar"></div>
       </div>
@@ -313,8 +283,8 @@
       <model-viewer src="./assets/models/chain couping.glb" ar-modes="webxr scene-viewer quick-look" camera-controls
         camera-orbit="179.1deg 85.68deg 0.7775m" field-of-view="30deg" min-camera-orbit="auto auto 0.7257m"
         min-field-of-view="26.26deg" tone-mapping="agx" shadow-intensity="1" exposure="1.8" shadow-softness="0"
-        environment-image="./assets/images/citrus_orchard_road_puresky_2k.hdr" poster="poster.webp"
-        shadow-intensity="1" disable-pan disable-tap style=" scale: 1; "></model-viewer>
+        environment-image="./assets/images/citrus_orchard_road_puresky_2k.hdr" poster="poster.webp" shadow-intensity="1"
+        disable-pan disable-tap style=" scale: 1; "></model-viewer>
       <div class="progress-bar hide" slot="progress-bar">
         <div class="update-bar"></div>
       </div>

@@ -505,28 +505,23 @@ const pages = [
     { page: 1, title: "Cover Page", keywords: ["cover", "front", "home", "title", "1"] },
     { page: 2, title: "Introduction", keywords: [ "about us", "table of content"] },
     { page: 4, title: "Chapter 1", keywords: [ "taper bush pulley"] },
-    // { page: 6, title: "Chapter 2", keywords: [] },
-    // { page: 8, title: "Chapter 3", keywords: [] },
+    
     { page: 10, title: "Conclusion", keywords: [ "timing pulley"] },
     { page: 13, title: "Cover Page", keywords: [ "poly v pulley"] },
     { page: 17, title: "Introduction", keywords: [ "sprocket"] },
-    // { page: 16, title: "Chapter 1", keywords: [] },
+    
     { page: 24, title: "Chapter 2", keywords: ["couplings","tyre coupling"] },
-    // { page: 20, title: "Chapter 3", keywords: [ ] },
-    // { page: 22, title: "Conclusion", keywords: [] },
-    // { page: 24, title: "Cover Page", keywords: [] },
+    
     { page: 32, title: "Introduction", keywords: [ "gear coupling"] },
-    // { page: 28, title: "Chapter 1", keywords: [ ] },
+    
     { page: 37, title: "Chapter 2", keywords: [ "pin bush coupling"] },
-    // { page: 32, title: "Chapter 3", keywords: [] },
+    
     { page: 41, title: "Conclusion", keywords: [ "roller chain flexible coupling"] },
-    // { page: 36, title: "Cover Page", keywords: [] },
-    // { page: 38, title: "Introduction", keywords: [] },
+
     { page: 47, title: "Chapter 1", keywords: [ "curved jaw coupling"] },
-    // { page: 42, title: "Chapter 2", keywords: [] },
-    // { page: 44, title: "Chapter 3", keywords: [] },
+
     { page: 52, title: "Conclusion", keywords: [ "stright jaw coupling"] },
-    // { page: 48, title: "Cover Page", keywords: [ ] },
+    
     { page: 56, title: "Introduction", keywords: [ "diverter wheels"] },
     { page: 60, title: "Introduction", keywords: [ "contact us"] },
     
